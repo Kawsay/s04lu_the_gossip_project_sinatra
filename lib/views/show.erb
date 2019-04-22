@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>show.erb</h1>
+
+    <h2>Auteur</h2>
+
+    <%= gossip.author %>
+
+    <h2>Contenu</h2>
+
+    <%= gossip.content %>
+
+    <br><br><br>
+    <a href="/gossip/<%= id %>/edit">Éditer ce gossip</a>
+    <a href="/gossips/new/">Ajouter un gossip</a>
+
+  </body>
+</html>
